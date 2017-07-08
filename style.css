@@ -1,0 +1,41 @@
+body {
+    text-align: center;
+}
+p {
+ font-size: 30px;
+ margin: 0;
+ width: 50%;
+ text-align: center;
+
+
+            
+}
+
+ul, li {
+
+    font-size: 30px;
+    list-style: none;
+}
+
+h3 {
+    
+    font-size: 30px;
+}
+h1 {
+    margin: Auto
+    font-size: 40px;
+}
+
+h1, h2, h3, li, ul, p, body {
+
+    font-family: 'Bellefair', serif;
+    font-weight: 400;
+    margin: auto;
+
+}
+
+img {
+    width: 50%
+    border:  15px;
+}
+
