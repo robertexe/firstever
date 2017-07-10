@@ -62,11 +62,11 @@ img {
     opacity: 0;
     transition: opacity 1s ease-in-out;
 }
-.foody article, p {
+.foody article {
     position: absolute;
     top: 45%;
     width: 80%;
-    margin: 0;
+    margin: 0 10%;
     text-align: center;
     z-index: 1;
     font-size: 21px
@@ -76,13 +76,29 @@ img {
 }
 .side {
     display: inline;
-    border: 1px white;
+    border: 1px, white;
 }
 #tech {
     border-radius: 10%;
-    width: 35%;
+    width: 40%;
+}
+.techt {
+    position: relative;
+    display: inline-block;
+    transition: .5s ease;
+    border: 0;
+    margin: auto;
+    padding: 0;
+}
+.techt:hover img{
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+}
+.techt p1 {
+    position: absolute;
     top: 45%;
-    margin: 0;
-    border: 1px;
-
+    margin: 0 10%;
+    text-align: center;
+    z-index: 1;
+    font-size: 21px
 }
