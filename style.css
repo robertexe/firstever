@@ -1,5 +1,5 @@
 head {
-    color: green;
+    color: black;
 }
 h2 {
 
@@ -7,8 +7,8 @@ h2 {
 body {
     background: whitesmoke;
     background-image: url(abstract_background7.jpg);
-    color: green;
-    font-family: 'Open Sans', serif;
+    color: black;
+    font-family: 'Share Tech Mono', serif;
     text-align: center;
 }
 img {
