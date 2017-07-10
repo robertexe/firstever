@@ -1,41 +1,88 @@
+head {
+    color: green;
+}
+h2 {
+
+}
 body {
+    background: whitesmoke;
+    background-image: url(abstract_background7.jpg);
+    color: green;
+    font-family: 'Open Sans', serif;
     text-align: center;
 }
-p {
- font-size: 30px;
- margin: 0;
- width: 50%;
- text-align: center;
-
-
-            
-}
-
-ul, li {
-
-    font-size: 30px;
-    list-style: none;
-}
-
-h3 {
-    
-    font-size: 30px;
-}
-h1 {
-    margin: Auto
-    font-size: 40px;
-}
-
-h1, h2, h3, li, ul, p, body {
-
-    font-family: 'Bellefair', serif;
-    font-weight: 400;
-    margin: auto;
-
-}
-
 img {
-    width: 50%
-    border:  15px;
+    width: 20%;
+    height: auto;
+    position: relative;
+    z-index: 100;
+    transition: opacity 1s ease-in-out;
+    border: 0;
+    margin: 0;
+    padding: 0;
+
+}
+#img-circle {
+    border-radius: 30%;
+    padding: 2em;
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
+.een {
+  position: relative;
+  display: inline-block;
+  transition: .5s ease;
 }
 
+.een:hover img {
+  opacity: 0.5;
+  transition: opacity 1s ease-in-out;
+}
+
+.een section {
+  position: absolute;
+  top: 45%;
+  width: 80%;
+  margin: 0 10%;
+  text-align: center;
+  z-index: 1;
+  font-size: 21px;
+}
+ #foodf {
+     border-radius: 10%;
+     width: 40%;
+ }
+.foody {
+    position: relative;
+    display: inline-block;
+    transition: .5s ease;
+}
+.foody:hover img {
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+}
+.foody article, p {
+    position: absolute;
+    top: 45%;
+    width: 80%;
+    margin: 0;
+    text-align: center;
+    z-index: 1;
+    font-size: 21px
+}
+.side li {
+    display: inline;
+}
+.side {
+    display: inline;
+    border: 1px white;
+}
+#tech {
+    border-radius: 10%;
+    width: 35%;
+    top: 45%;
+    margin: 0;
+    border: 1px;
+
+}
